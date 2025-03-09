@@ -4,6 +4,7 @@
 
 This project is a web-based application that predicts the sentiment of movie reviews as either positive or negative. Built with Streamlit and TensorFlow, it leverages a pretrained RNN model to classify sentiments based on text inputs.  
 
+https://movie-review-sentiment-analysis-prashanth.streamlit.app/
 ---
 
 ## 🚀 Features  
