@@ -29,10 +29,10 @@ import streamlit as st
 ## streamlit app
 # Streamlit app
 st.title('IMDB Movie Review Sentiment Analysis')
-st.write('Enter a movie review to classify it as positive or negative.')
+st.write('Enter a Movie Name to classify it as positive or negative.')
 
 # User input
-user_input = st.text_area('Movie Review')
+user_input = st.text_area('Movie Name')
 
 if st.button('Classify'):
 
@@ -46,5 +46,5 @@ if st.button('Classify'):
     st.write(f'Sentiment: {sentiment}')
     st.write(f'Prediction Score: {prediction[0][0]}')
 else:
-    st.write('Please enter a movie review.')
+    st.write('Please enter a movie Name.')
 
